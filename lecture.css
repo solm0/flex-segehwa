@@ -15,16 +15,30 @@ body {
 .container {
     width: 85vw;
     /* background-color: aliceblue; */
-    height: 50vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
 }
 .link {
     width: 100px;
     height: 100px;
     background-color: green;
     margin: 10px;
+}
+.link3 {
+    background-color: yellow;
+    align-self: center;
+}
+
+.link7 {
+    background-color: rebeccapurple;
+    align-self: flex-end;
+}
+
+.link11 {
+    background-color: red;
+    order: -1;
 }
 
 .list {
@@ -39,4 +53,9 @@ body {
     height: 50px;
     margin: 10px;
     display: block;
+}
+img {
+   position: fixed;
+   left: 0;
+   width: 50vw;
 }
