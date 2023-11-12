@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #5b584b, #c7ff66, #3399ff);
+    overflow: hidden;
+    display: block;
+}
+
+h1 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(205, 205, 205);
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'dotum';
+    color: #3399ff;
+    margin-bottom: 0;
+}
+
+.container {
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 800px;
+    width: 800px;
+    /* background-color: #989898; */
+}
+
+.lecture, .book {
+    background-color: #c7ff66;
+    
+}
+.notice {
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'dotum';
+}
+
+.container > * {
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+
+}
+
+.text {
+    font-size: 50px;
+    font-family: 'dotum';
+    
+}
